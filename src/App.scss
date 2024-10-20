@@ -1,0 +1,32 @@
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#ears, #nose, #mouth, #clothes{
+  position:absolute;
+  width:338px;   
+  height:254px; 
+  top: 680px;
+  left: 380px;
+  z-index: 2;
+}
+
+#eyes{
+  position:absolute;
+  width:338px;   
+  height:254px; 
+  top: 400px;
+  left: 380px;
+  z-index: 2;
+}
+
+body {
+  background-color: rgb(161, 153, 153);
+  position: relative;
+  z-index: 0; /* Background color layer */
+}
+// * {background-color: rgb(161, 153, 153)}
+.hide-during-download {
+  display: none !important;
+}
